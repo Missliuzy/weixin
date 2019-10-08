@@ -1,0 +1,14 @@
+/* 样式重置 */
+@import './reset.scss';
+/* 基础样式 */
+@import './base.scss';
+/* vue-transition 缓动 */
+@import './vue-transition.scss';
+
+// 本地
+// @import './iconfont.scss';
+// web 线上
+/* iconfont vue-mobile-template*/
+// @import url('//at.alicdn.com/t/font_608608_3fzx5fu323xr.css');
+/* iconfont 职介微信端 */
+@import url('//at.alicdn.com/t/font_700797_9kx710148a.css');

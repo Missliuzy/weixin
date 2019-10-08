@@ -1,0 +1,24 @@
+image: node:8.9.1
+
+stages:
+  - install_deps
+  - build
+
+cache:
+  paths:
+  - node_modules/
+
+install_deps:
+  stage: install_deps
+  only:
+   - dev
+  script:
+    - npm install
+
+build:
+  stage: build
+  only:
+  - dev
+  script:
+   - npm run build
+
